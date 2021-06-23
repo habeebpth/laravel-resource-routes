@@ -23,7 +23,7 @@
         </div>
         <div class="form-group">
             <label for="customer_mobile">Customer Mobile</label>
-            <input type="text" class="form-control" id="customer_mobile" name="customer_mobile" value="{{$editable->mobile}}" required>
+            <input type="number" class="form-control" id="customer_mobile" name="customer_mobile"  value="{{$editable->mobile}}" required>
         </div>
 
         <button type="submit" class="btn btn-primary">Submit</button>

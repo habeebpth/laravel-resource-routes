@@ -25,7 +25,7 @@ class CustomerRequest extends FormRequest
     {
         return [
             'customer_name' => 'required',
-            'customer_mobile' => 'required'
+            'customer_mobile' => 'required|max:11'
         ];
     }
 }

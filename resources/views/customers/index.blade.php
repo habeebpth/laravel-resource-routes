@@ -30,11 +30,9 @@
             <td>
                 <a href="/customers/{{$customer->id}}"><button type="button" class="btn btn-primary btn-sm">Show</button></a>
                 <a href="/customers/{{$customer->id}}/edit"><button type="button" class="btn btn-warning btn-sm">Edit</button></a>
-                {{-- <form action="/customers/{{$customer->id}}" method="POST">
-                    @csrf
-                    @method('DELETE') --}}
+
                 <a href="#" data-id="{{$customer->id}}" class="deleteButton"> <button type="button"  class="btn btn-danger btn-sm">Delete</button></a>
-                {{-- </form> --}}
+
             </td>
           </tr>
         @endforeach
